@@ -4,20 +4,24 @@
     body {
         background-image: linear-gradient(to top, #5a5aff, #2121ff, #0000ff8a);
     }
-   section#login {
-    width: 80%;
-   }
+    section#login {
+        width: 80vw;
+        height: 350px;
+    }
 
-   section#login > div#imagem {
-    float: left; /* faz com que um elemento seja deslocado para a esquerda dentro do seu contêiner*/
-    width: 45%;
-    height: 100%;
-   }
-   section#login > div#formulario {
-    float: right; /* faz com que um elemento seja deslocado para a direita dentro
-    do seu contêiner*/
-    width: 55%;
-   }
+    section#login > div#imagem {
+        float: left; /* faz com que um elemento seja deslocado para a esquerda dentro do seu contêiner*/
+        width: 45%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right; /* faz com que um elemento seja deslocado para a direita dentro
+        do seu contêiner*/
+        width: 55%;
+    }
+    form {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -26,6 +30,7 @@
     }
     section#login {
         width: 990px;
+        height: 400px;
     }
     section#login > div#imagem {
         float: right;
@@ -40,6 +45,9 @@
         font-size: 2em;
     }
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+    form {
+        margin-top: 30px;
     }
 }
